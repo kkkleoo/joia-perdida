@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A busca da joia perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Lancelote era um bravo espadachim, ele foi mandado para uma missão que consistia em recuperar uma joia que foi roubada por um feiticeiro muito forte, ele então reuniu seus amigos Agatha, uma guerreira ágil e feroz, e Dragon, um mago muito inteligente e perspicaz. Eles então tinham dois caminhos para seguir:</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a vila dos goblins</button>
+            <button class="btn-proximo" data-proximo="2">Dar a volta e ir até o vulcão</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Indo até a vida dos goblins, eles se deparam com a vila pegando fogo e toda destruida, avistam um gorila de pedra gigante que está matando e destruindo toda a vila.</p>
+            <button class="btn-proximo" data-proximo="3">Enfrentar o gorila e salvar a vila</button>
+            <button class="btn-proximo" data-proximo="4">Fugir e continuar a jornada</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Dando a volta na vila, eles passam por um deserto onde são pegos numa emboscada, depois de lutar intensamente contra bandidos, os heróis estão cansados demais, continuar seguido?</p>
+            <button class="btn-proximo" data-proximo="5">Sim</button>
+            <button class="btn-proximo" data-proximo="6">Não</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>depois de vencer o gorila, os heróis são recompensados com novos itens, lancelote recebe um escudo de ouro do ferreiro, agatha recebe um arco e flechas envenenadas e Dragon recebe um novo cajado. Eles então seguem em rumo ao vulcão</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o vulcão</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Cansados, eles decidem voltar para casa e descansar, tendo assim nunca terminado a missão.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo em frente, os heróis percebem que estão perto do vulcão.</p>
+            <button class="btn-proximo" data-proximo="7">ir ao vulcão</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Eles então param pra descansar, depois de uma noite de sono, eles decidem continuar</p>
+            <button class="btn-proximo" data-proximo="8">continuar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Chegando no vulcão, os herois se deparam com o guardião do vulcão, eles tem que decidir se enfretam o monstro ou encontram outra maneira de entrar no castelo</p>
+            <button class="btn-proximo" data-proximo="9">enfrentar o monstro</button>
+            <button class="btn-proximo" data-proximo="10">encontrar outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao caminho, eles encontram um mapa que leva direto ao vulcão</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o vulcão</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O monstro é bem poderoso mas graças aos artefatos místicos, conseguem vencer o monstro e continuam indo até o castelo.</p>
+            <button class="btn-proximo" data-proximo="11">ir ao castelo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>eles decidem dar a volta no monstro e entram pelo sotão do castelo, la eles encontram armas místicas abandonadas, e pegam elas</p>
+            <button class="btn-proximo" data-proximo="12">seguir até a sala principal</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>chegando na sala principal, eles encontram e derrotam o dragão e recuperam a joia que foi roubada, assim voltando e sendo recompensados pelo rei Arthur.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
